@@ -32,6 +32,7 @@ public class TaskCaesarDecoder extends Task {
             ArrayList CodeWords = new ArrayList();
             ArrayList Match = new ArrayList();
             String result = "";
+            boolean flag = false;
             char [] alphabet  = new char []{ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
             while(pars1.hasNext())
             {
@@ -45,10 +46,10 @@ public class TaskCaesarDecoder extends Task {
             pars1.close();
             pars2.close();
             pars3.close();
-            for( int i = 0; i < NumOfCW; i++)
+            for( int i = 0; i < NumOfCW; i++)//Пробег по кодовым словам
             {
                     String innerstr = (String)CodeWords.get(i);
-                    for (int j = 0; j < Book.size(); j++)
+                    for (int j = 0; j < Book.size(); j++)//Подбираем подходящие по длине
                     {
                         String BookElLength = (String)Book.get(j);
                         if(innerstr.length() == BookElLength.length())
@@ -56,8 +57,10 @@ public class TaskCaesarDecoder extends Task {
                             Match.add(Book.get(j));
                         }
                     }
-                    for (int j =0; j < Match.size(); j++)
+                    for (int j =0; j < Match.size(); j++)//Пробег по подходящим словам
                     {
+                        result = "";
+                        flag = false;
                         String TargWord = (String)Match.get(j);
                         char First = TargWord.charAt(0);
                         char ToCast = innerstr.charAt(0);
@@ -65,8 +68,7 @@ public class TaskCaesarDecoder extends Task {
                         int keyReset = 0;
                         int pos1=0;
                         int pos2=0;
-                        boolean arrow = true;
-                        for( int k = 0; k < 26; k++)// to parse difference between of codeword and match word
+                        for( int k = 0; k < 26; k++)// ищем сдвиг
                         {
 
                             if(ToCast == alphabet[k])
@@ -82,8 +84,7 @@ public class TaskCaesarDecoder extends Task {
 
                         }
                         key = (pos2 - pos1);
-                        //System.out.println("Our key is: "+ key);
-                        for( int h = 0; h < innerstr.length();h++ )//пробег по закодированному слову and change it
+                        for( int h = 0; h < innerstr.length();h++ )//пробег по закодированному слову и замена букв
                         {
                             char t = innerstr.charAt(h);
 
@@ -91,8 +92,6 @@ public class TaskCaesarDecoder extends Task {
                             for (int g = 0; g < 26; g++) {
                                 if (alphabet[g] == t) {
                                     index_t = g;
-
-                                    //System.out.println("G is : " + g + " Index_t is : " + index_t);
                                 }
                             }
                             if (index_t + key > 25)
@@ -108,17 +107,21 @@ public class TaskCaesarDecoder extends Task {
                                 t = alphabet[25 - abs(key)];
                             }
                             result += String.valueOf(t);
+
                         }
-
-
+                        for(int t = 0; t < Match.size();t++)
+                        {
+                            if(result.equals(Match.get(t)))
+                            {
+                                System.out.println(result);
+                                flag = true;
+                            }
+                        }
+                        if(flag)
+                            continue;
                         //System.out.print("    !!Current result!!   "+ result);
-                        }
-                        System.out.println();
-                        System.out.println("______________________");
-                        System.out.println(result);
-                        System.out.println("______________________");
-                        result = "";
-                        Match.clear();
+                    }
+                    Match.clear();
 
 
             }
