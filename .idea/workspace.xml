@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/InpTask4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,8 @@
     <MESSAGE value="Make Resources directory&#10;Fix Task1" />
     <MESSAGE value="&#10;Fix Task1" />
     <MESSAGE value="Add Task3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task3" />
+    <MESSAGE value="Add Task4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Task4" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1593398856550">
@@ -92,10 +89,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1593395255186" />
-    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2" timestamp="1594281191879">
+    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2" timestamp="1594283619070">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1594281191879" />
+    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1594283619070" />
     <state width="629" height="185" key="GridCell.Tab.0.bottom" timestamp="1594283598272">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
