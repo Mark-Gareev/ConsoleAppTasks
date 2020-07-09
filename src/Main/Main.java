@@ -14,7 +14,7 @@ public class Main {
         {
             System.out.println("Greetings for you, user! Please, choose Task to be shown. Use \"Task№\"");
 
-            System.out.println("Available : \n\r Caesar Decoder -- Task1 \n\r Area between functions -- Task2 \n\r Simple Math -- Task3");
+            System.out.println("Available : \n\r Caesar Decoder -- Task1 \n\r Area between functions -- Task2 \n\r Simple Math -- Task3 \n\r ToCamelNotation -- Task4");
             command = scan.nextLine();
             FileManager Manager = new FileManager();
             Manager.Linker(command);

@@ -1,9 +1,6 @@
 package FileWork;
 
-import Tasks.Task;
-import Tasks.TaskAreaBetweenFunction;
-import Tasks.TaskCaesarDecoder;
-import Tasks.TaskSimpleMath;
+import Tasks.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -13,6 +10,7 @@ public class FileManager {
     private Task task;
     private File Task2 = new File("Resources/InpTask2.txt");
     private File Task3 = new File("Resources/InpTask3.txt");
+    private File Task4 = new File("Resources/InpTask4.txt");
 
 
 
@@ -35,6 +33,10 @@ public class FileManager {
         if(command.equals("Task3"))
         {
             task = new TaskSimpleMath(Task3.getPath());
+        }
+        if(command.equals("Task4"))
+        {
+            task = new TaskToCamelNotation(Task4.getPath());
         }
     }
     public void Executor() throws IOException
