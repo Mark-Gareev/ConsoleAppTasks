@@ -3,6 +3,8 @@ package FileWork;
 import Tasks.Task;
 import Tasks.TaskAreaBetweenFunction;
 import Tasks.TaskCaesarDecoder;
+import Tasks.TaskSimpleMath;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -10,6 +12,7 @@ public class FileManager {
     private File Task1 = new File("Resources/InpTask1.txt");
     private Task task;
     private File Task2 = new File("Resources/InpTask2.txt");
+    private File Task3 = new File("Resources/InpTask3.txt");
 
 
 
@@ -28,6 +31,10 @@ public class FileManager {
         {
             task = new TaskAreaBetweenFunction(Task2.getPath());
             //System.out.println("There is no prod yet");
+        }
+        if(command.equals("Task3"))
+        {
+            task = new TaskSimpleMath(Task3.getPath());
         }
     }
     public void Executor() throws IOException

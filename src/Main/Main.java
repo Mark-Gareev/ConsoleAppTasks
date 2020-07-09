@@ -14,7 +14,7 @@ public class Main {
         {
             System.out.println("Greetings for you, user! Please, choose Task to be shown. Use \"Task№\"");
 
-            System.out.println("Available : Caesar Decoder -- Task1 || Area between functions -- Task2");
+            System.out.println("Available : \n\r Caesar Decoder -- Task1 \n\r Area between functions -- Task2 \n\r Simple Math -- Task3");
             command = scan.nextLine();
             FileManager Manager = new FileManager();
             Manager.Linker(command);
