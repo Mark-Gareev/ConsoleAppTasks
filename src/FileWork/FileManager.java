@@ -20,6 +20,7 @@ public class FileManager {
         task = null;
         if(command.equals("Task1"))
         {
+            System.out.println(Task1.getAbsolutePath());
             task = new TaskCaesarDecoder(Task1.getPath());
             //TaskCaesarDecoder task = new TaskCaesarDecoder(Task1.getPath());
         }
