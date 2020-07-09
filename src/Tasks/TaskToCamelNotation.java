@@ -10,7 +10,7 @@ public class TaskToCamelNotation extends Task{
         Scanner scan = new Scanner(file);
         a1 = scan.nextLine();
     }
-    private String castString(String a)
+    private String castString(String a)//Превращение входной строки в строку НужногоФормата
     {
         String res = "";
         String [] innerstrings = a1.split("_");
@@ -18,7 +18,7 @@ public class TaskToCamelNotation extends Task{
             innerstrings = a1.split("-");
         if(innerstrings.length == 1)
             innerstrings = a1.split(" ");
-        for(int i = 0; i < innerstrings.length; i++)
+        for(int i = 0; i < innerstrings.length; i++) //Поделил слово на две части, потом их склеил в нужном формате
         {
             String end = innerstrings[i].substring(1,innerstrings[i].length());
             String begin = String.valueOf(innerstrings[i].charAt(0));

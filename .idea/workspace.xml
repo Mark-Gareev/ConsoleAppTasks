@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskSudoku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -26,7 +26,7 @@ public class TaskAreaBetweenFunction extends Task
     {
         super(f_path);
     }
-    public double Integrate(double a, double b, double c, int l1, int l2 )
+    public double Integrate(double a, double b, double c, int l1, int l2 )//Нахождение интеграла многочлена второй степени по формуле Ньютона-Лейбница
     {
 
         double r, r1, r2, r3;
@@ -44,7 +44,7 @@ public class TaskAreaBetweenFunction extends Task
 
     }
 
-    public void setData() throws  IOException
+    public void setData() throws  IOException //Превращение строк исходного файла в числа для обработки
     {
         Scanner pars1 = new Scanner(a1);
         Scanner pars2 = new Scanner(b1);
@@ -87,7 +87,7 @@ public class TaskAreaBetweenFunction extends Task
         setData();
         double INTEGR_F = 0,INTEGR_G = 0;
         int k;
-        for(int i = 0; i < N; i++)
+        for(int i = 0; i < N; i++) // Накопление интегралов от N многочленов второй степени(функция F)
         {
             if(i>=1)
                 k = i*3;
@@ -98,7 +98,7 @@ public class TaskAreaBetweenFunction extends Task
             //System.out.println("Result is : " + INTEGR_F);
 
         }
-        for(int i = 0; i < M; i++)
+        for(int i = 0; i < M; i++) // Накопление интегралов от M многочленов второй степени(функция G)
         {
             if(i>=1)
                 k = i*3;
@@ -118,7 +118,7 @@ public class TaskAreaBetweenFunction extends Task
         {
             System.out.println("Area between F & G is : " + (INTEGR_F + abs(INTEGR_G)));
         }
-        if((INTEGR_F < 0)&&(INTEGR_G > 0))
+        if((INTEGR_F < 0)&&(INTEGR_G > 0))                                              //Блок условий для высчитывания площади между графиками, а не разности интегралов
         {
             System.out.println("Area between F & G is : " + (INTEGR_G + abs(INTEGR_F)));
         }
