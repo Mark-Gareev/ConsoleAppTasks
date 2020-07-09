@@ -2,32 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="Start my project with tasks.">
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Great_Task_project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/InpTask1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/InpTask2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Resources/InpTask1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Resources/InpTask2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Yadex_Test_Console/META-INF/Yadex_Test_Console.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileWork/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileWork/InpTask1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileWork/InpTask2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/InpTask1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Resources/InpTask2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Resources/InpTask1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Resources/InpTask2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/InpTask1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resources/InpTask2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +46,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunManager">
@@ -109,25 +97,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="260" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1593822536210" />
-    <state width="1259" height="193" key="GridCell.Tab.0.bottom" timestamp="1593819332536">
+    <state width="629" height="192" key="GridCell.Tab.0.bottom" timestamp="1594267635949">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1593819332536" />
+    <state width="629" height="192" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594267635949" />
     <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
-    <state width="1259" height="193" key="GridCell.Tab.0.center" timestamp="1593819332534">
+    <state width="629" height="192" key="GridCell.Tab.0.center" timestamp="1594267635948">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1593819332534" />
+    <state width="629" height="192" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594267635948" />
     <state width="1259" height="212" key="GridCell.Tab.0.center/0.22.1280.778@0.22.1280.778" timestamp="1593117331480" />
-    <state width="1259" height="193" key="GridCell.Tab.0.left" timestamp="1593819332533">
+    <state width="629" height="192" key="GridCell.Tab.0.left" timestamp="1594267635947">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1593819332533" />
+    <state width="629" height="192" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594267635947" />
     <state width="1259" height="212" key="GridCell.Tab.0.left/0.22.1280.778@0.22.1280.778" timestamp="1593117331479" />
-    <state width="1259" height="193" key="GridCell.Tab.0.right" timestamp="1593819332535">
+    <state width="629" height="192" key="GridCell.Tab.0.right" timestamp="1594267635948">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="193" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1593819332535" />
+    <state width="629" height="192" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594267635948" />
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
     <state width="629" height="263" key="GridCell.Tab.1.bottom" timestamp="1593419705511">
       <screen x="0" y="0" width="1280" height="800" />
@@ -149,10 +137,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="429" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1593822599017" />
-    <state x="309" y="22" key="new project wizard" timestamp="1593808004022">
+    <state x="309" y="22" key="new project wizard" timestamp="1594262219597">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="309" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1593808004022" />
+    <state x="309" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1594262219597" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1593405811657">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

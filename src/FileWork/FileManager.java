@@ -7,19 +7,17 @@ import java.io.File;
 import java.io.IOException;
 
 public class FileManager {
-    private File Task1 = new File(String.valueOf(GetResoursePath("InpTask1"))) ;
+    private File Task1 = new File("Resources/InpTask1.txt");
     private Task task;
-    private File Task2 = new File(String.valueOf(GetResoursePath("InpTask2")));
+    private File Task2 = new File("Resources/InpTask2.txt");
 
 
-    String GetResoursePath(String file)
-    {
 
-        return("/Users/markgareev/IdeaProjects/Yadex_Test_Console/src/Resources/" + file + ".txt");
-    }
+
 
     public void Linker(String command) throws IOException
     {
+        task = null;
         if(command.equals("Task1"))
         {
             task = new TaskCaesarDecoder(Task1.getPath());

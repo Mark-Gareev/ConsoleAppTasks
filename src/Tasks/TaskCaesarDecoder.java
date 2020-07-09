@@ -82,7 +82,7 @@ public class TaskCaesarDecoder extends Task {
 
                         }
                         key = (pos2 - pos1);
-                        System.out.println("Our key is: "+ key);
+                        //System.out.println("Our key is: "+ key);
                         for( int h = 0; h < innerstr.length();h++ )//пробег по закодированному слову and change it
                         {
                             char t = innerstr.charAt(h);
@@ -92,7 +92,7 @@ public class TaskCaesarDecoder extends Task {
                                 if (alphabet[g] == t) {
                                     index_t = g;
 
-                                    System.out.println("G is : " + g + " Index_t is : " + index_t);
+                                    //System.out.println("G is : " + g + " Index_t is : " + index_t);
                                 }
                             }
                             if (index_t + key > 25)
