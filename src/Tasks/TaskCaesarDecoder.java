@@ -1,5 +1,6 @@
 package Tasks;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
@@ -14,9 +15,9 @@ public class TaskCaesarDecoder extends Task {
         super(a,b,c);
     }
 
-    public TaskCaesarDecoder(String f_path) throws IOException
+    public TaskCaesarDecoder(File file) throws IOException
     {
-       super(f_path);
+       super(file);
     }
     @Override
     public void imper() throws IOException

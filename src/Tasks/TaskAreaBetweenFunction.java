@@ -1,5 +1,6 @@
 package Tasks;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -22,9 +23,9 @@ public class TaskAreaBetweenFunction extends Task
     ArrayList<String> Val_G = new ArrayList<String>();
 
 
-    public TaskAreaBetweenFunction(String f_path) throws IOException
+    public TaskAreaBetweenFunction(File file) throws IOException
     {
-        super(f_path);
+        super(file);
     }
     public double Integrate(double a, double b, double c, int l1, int l2 )//Нахождение интеграла многочлена второй степени по формуле Ньютона-Лейбница
     {

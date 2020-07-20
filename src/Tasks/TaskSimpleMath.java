@@ -12,8 +12,7 @@ import static java.lang.Math.round;
 public class TaskSimpleMath extends Task{
     int a,b;
     double c,d;
-    public TaskSimpleMath(String f_path) throws FileNotFoundException {
-        File file = new File(f_path);
+    public TaskSimpleMath(File file) throws FileNotFoundException {
         Scanner scan = new Scanner(file);
         a1 = scan.nextLine();
         scan.close();
@@ -85,6 +84,7 @@ public class TaskSimpleMath extends Task{
         Scanner scanner = new Scanner(System.in);
         String comm = "";
         while (!(comm.equals("e"))) {
+            System.out.println("Command for task4 : \r\n  Divide \r\n  Substract \r\n  Add \r\n  Multiply");
             System.out.println("Put your command:");
             comm = scanner.nextLine();
             if (comm.equals("Divide")) {

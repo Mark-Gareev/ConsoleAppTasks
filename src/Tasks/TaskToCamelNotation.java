@@ -5,8 +5,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class TaskToCamelNotation extends Task{
-    public TaskToCamelNotation(String f_path) throws FileNotFoundException {
-        File file = new File(f_path);
+    public TaskToCamelNotation(File file) throws FileNotFoundException {
         Scanner scan = new Scanner(file);
         a1 = scan.nextLine();
     }

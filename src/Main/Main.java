@@ -8,25 +8,36 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException
     {
-        String command;
-        Scanner scan = new Scanner(System.in);
-        try
+        Scanner scanner = new Scanner(System.in);
+        String command = "";
+        FileManager core = new FileManager();
+        System.out.println("Use \"Task№\" form");
+        System.out.println("---------------------------");
+        System.out.println("Task1 - Caesar Decoder");
+        System.out.println("---------------------------");
+        System.out.println("Task2 - Area between function");
+        System.out.println("---------------------------");
+        System.out.println("Task3 - Simple Math");
+        System.out.println("---------------------------");
+        System.out.println("Task4 - ToCamelNotation");
+        System.out.println("Press \"e\" to exit");
+        System.out.println("Your command?");
+        while(true)
         {
-            System.out.println("Greetings for you, user! Please, choose Task to be shown. Use \"Task№\"");
-
-            System.out.println("Available : \n\r Caesar Decoder -- Task1 \n\r Area between functions -- Task2 \n\r Simple Math -- Task3 \n\r ToCamelNotation -- Task4");
-            command = scan.nextLine();
-            FileManager Manager = new FileManager();
-            Manager.Linker(command);
-            Manager.Executor();
-            System.out.println("There is how it Works:)");
-
-            System.out.println("Goodbye!");
-
+            command = scanner.nextLine();
+            System.out.println("there is command : "+ command);
+            if(command.equals("e"))
+            {
+                break;
+            }
+            core.Linker(command);
+            core.Executor();
+            command = "";
+            System.out.println("---------------------------");
+            System.out.println("---------------------------");
+            System.out.println("---------------------------");
+            System.out.println("Your command?");
         }
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
+        System.out.println("Goodbye!");
     }
 }

@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskSudoku.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/InpTask5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskSimpleMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskSimpleMath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskToCamelNotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskToCamelNotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskSudoku.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,25 +109,25 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1594283840529" />
-    <state width="629" height="185" key="GridCell.Tab.0.bottom" timestamp="1594283807543">
+    <state width="629" height="182" key="GridCell.Tab.0.bottom" timestamp="1595283759547">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="185" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594283807543" />
+    <state width="629" height="182" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595283759547" />
     <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
-    <state width="629" height="185" key="GridCell.Tab.0.center" timestamp="1594283807540">
+    <state width="629" height="182" key="GridCell.Tab.0.center" timestamp="1595283759545">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="185" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594283807540" />
+    <state width="629" height="182" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595283759545" />
     <state width="1259" height="212" key="GridCell.Tab.0.center/0.22.1280.778@0.22.1280.778" timestamp="1593117331480" />
-    <state width="629" height="185" key="GridCell.Tab.0.left" timestamp="1594283807539">
+    <state width="629" height="182" key="GridCell.Tab.0.left" timestamp="1595283759545">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="185" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594283807539" />
+    <state width="629" height="182" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595283759545" />
     <state width="1259" height="212" key="GridCell.Tab.0.left/0.22.1280.778@0.22.1280.778" timestamp="1593117331479" />
-    <state width="629" height="185" key="GridCell.Tab.0.right" timestamp="1594283807541">
+    <state width="629" height="182" key="GridCell.Tab.0.right" timestamp="1595283759546">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="185" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594283807541" />
+    <state width="629" height="182" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595283759546" />
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
     <state width="629" height="263" key="GridCell.Tab.1.bottom" timestamp="1593419705511">
       <screen x="0" y="0" width="1280" height="800" />
@@ -152,9 +165,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="309" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1594262219597" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1594269689194">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595276621324">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1594269689194" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595276621324" />
   </component>
 </project>
