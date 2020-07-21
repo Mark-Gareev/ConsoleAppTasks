@@ -45,22 +45,18 @@ public class TaskAreaBetweenFunction extends Task
 
     }
 
-    public void setData() throws  IOException //Превращение строк исходного файла в числа для обработки
+    public void setData() //Превращение строк исходного файла в числа для обработки
     {
         Scanner pars1 = new Scanner(a1);
         Scanner pars2 = new Scanner(b1);
         Scanner pars3 = new Scanner(c1);
         N = Integer.parseInt(pars1.next());
-        //System.out.println("There is N : " + N);
         M = Integer.parseInt(pars1.next());
-        //System.out.println("There is M : " + M);
-        //System.out.println("______________________");
         pars1.close();
 
         for (int i = 0; i < N+1; i++)
         {
             RangeList_F.add(pars2.next());
-            //System.out.println("There is RangelistF :" + RangeList_F.get(i));
         }
         for (int i = 0; i < M+1; i++)
         {
@@ -83,7 +79,7 @@ public class TaskAreaBetweenFunction extends Task
 
     }
     @Override
-    public void imper() throws IOException
+    public void imper()
     {
         setData();
         double INTEGR_F = 0,INTEGR_G = 0;

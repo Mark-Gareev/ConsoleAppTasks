@@ -20,11 +20,10 @@ public class TaskCaesarDecoder extends Task {
        super(file);
     }
     @Override
-    public void imper() throws IOException
+    public void imper()
     {
 
-        try
-        {
+
 
             Scanner pars1 = new Scanner(a1);
             Scanner pars2 = new Scanner(b1);
@@ -128,11 +127,8 @@ public class TaskCaesarDecoder extends Task {
             }
 
 
-        }
 
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
+
+
     }
 }

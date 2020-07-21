@@ -17,7 +17,7 @@ public class FileManager {
 
 
 
-    public void Linker(String command) throws IOException
+    public void Linker(String command) throws IOException, IncorrectInputExсeption
     {
         task = null;
         if(command.equals("Task1"))
@@ -26,34 +26,39 @@ public class FileManager {
             task = new TaskCaesarDecoder(Task1);
             //TaskCaesarDecoder task = new TaskCaesarDecoder(Task1.getPath());
         }
-        if(command.equals("Task2"))
-        {
-            task = new TaskAreaBetweenFunction(Task2);
-            //System.out.println("There is no prod yet");
-        }
-        if(command.equals("Task3"))
-        {
-            task = new TaskSimpleMath(Task3);
-        }
-        if(command.equals("Task4"))
-        {
-            task = new TaskToCamelNotation(Task4);
-        }
-        if(command.equals("Task5"))
-        {
-            task = new TaskMorzeEncoder(Task5);
+        else {
+            if (command.equals("Task2")) {
+                task = new TaskAreaBetweenFunction(Task2);
+                //System.out.println("There is no prod yet");
+            }
+            else {
+                if (command.equals("Task3")) {
+                    task = new TaskSimpleMath(Task3);
+                }
+                else {
+                    if (command.equals("Task4")) {
+                        task = new TaskToCamelNotation(Task4);
+                    }
+                    else {
+                        if (command.equals("Task5")) {
+                            task = new TaskMorzeEncoder(Task5);
+                        }
+                        else
+                        {
+                            throw new IncorrectInputExсeption("Wrong command to execute");
+                        }
+                    }
+                }
+            }
         }
     }
-    public void Executor() throws IOException
+    public void Executor()
     {
-        try {
+
             task.imper();
             task = null;
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
+
+
     }
 
 }

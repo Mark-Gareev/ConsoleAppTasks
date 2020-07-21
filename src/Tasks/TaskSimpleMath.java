@@ -3,16 +3,17 @@ package Tasks;
 import java.awt.desktop.PreferencesEvent;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.Scanner;
 
 import static java.lang.Math.round;
 
-public class TaskSimpleMath extends Task{
+public class TaskSimpleMath extends Task {
     int a,b;
     double c,d;
-    public TaskSimpleMath(File file) throws FileNotFoundException {
+    public TaskSimpleMath(File file)throws IOException {
         Scanner scan = new Scanner(file);
         a1 = scan.nextLine();
         scan.close();

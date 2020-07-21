@@ -15,30 +15,16 @@ public class Task {
         b1 = b;
         c1 = c;
     }//Чтение строк напрямую(пока не используется)
-    public Task(File file) throws IOException //Задание пути для чтения входного файла в строки
+    public Task(File file) throws IOException//Задание пути для чтения входного файла в строки
     {
-        try {
-
             Scanner scan = new Scanner(file);
             a1 = scan.nextLine();
             b1 = scan.nextLine();
             c1 = scan.nextLine();
             scan.close();
-        }
-        catch(Exception e)
-        {
-            e.printStackTrace();
-        }
     }
-    public void imper() throws IOException//Выполнение любой задачи
+    public void imper() //Выполнение любой задачи
     {
-        try{
-
-        }
-        catch (Exception e)
-        {
-            e.printStackTrace();
-        }
 
     }
 }

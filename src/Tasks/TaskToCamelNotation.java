@@ -2,10 +2,11 @@ package Tasks;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class TaskToCamelNotation extends Task{
-    public TaskToCamelNotation(File file) throws FileNotFoundException {
+    public TaskToCamelNotation(File file) throws IOException {
         Scanner scan = new Scanner(file);
         a1 = scan.nextLine();
     }
