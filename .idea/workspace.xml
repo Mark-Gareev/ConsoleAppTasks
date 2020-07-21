@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileWork/IncorrectInputExсeption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskMorzeDecoder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskCaesarDecoder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskSimpleMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskSimpleMath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskToCamelNotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskToCamelNotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskCaesarDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskToCamelNotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +71,8 @@
     <MESSAGE value="&#10;Fix Task1" />
     <MESSAGE value="Add Task3" />
     <MESSAGE value="Add Task4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Task4" />
+    <MESSAGE value="Add reaction to incorrect input" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add reaction to incorrect input" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1593398856550">
@@ -103,29 +91,29 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1593395255186" />
-    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2" timestamp="1595283980197">
+    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2" timestamp="1595336473613">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1595283980197" />
-    <state width="629" height="181" key="GridCell.Tab.0.bottom" timestamp="1595336369660">
+    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1595336473613" />
+    <state width="629" height="181" key="GridCell.Tab.0.bottom" timestamp="1595336553691">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="181" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595336369660" />
+    <state width="629" height="181" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595336553691" />
     <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
-    <state width="629" height="181" key="GridCell.Tab.0.center" timestamp="1595336369659">
+    <state width="629" height="181" key="GridCell.Tab.0.center" timestamp="1595336553689">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="181" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595336369659" />
+    <state width="629" height="181" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595336553689" />
     <state width="1259" height="212" key="GridCell.Tab.0.center/0.22.1280.778@0.22.1280.778" timestamp="1593117331480" />
-    <state width="629" height="181" key="GridCell.Tab.0.left" timestamp="1595336369658">
+    <state width="629" height="181" key="GridCell.Tab.0.left" timestamp="1595336553687">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="181" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595336369658" />
+    <state width="629" height="181" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595336553687" />
     <state width="1259" height="212" key="GridCell.Tab.0.left/0.22.1280.778@0.22.1280.778" timestamp="1593117331479" />
-    <state width="629" height="181" key="GridCell.Tab.0.right" timestamp="1595336369659">
+    <state width="629" height="181" key="GridCell.Tab.0.right" timestamp="1595336553690">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="181" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595336369659" />
+    <state width="629" height="181" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595336553690" />
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
     <state width="629" height="263" key="GridCell.Tab.1.bottom" timestamp="1593419705511">
       <screen x="0" y="0" width="1280" height="800" />
@@ -147,10 +135,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="401" y="118" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1594274112788" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1594281201236">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1595336480603">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1594281201236" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1595336480603" />
     <state x="429" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593822599017">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

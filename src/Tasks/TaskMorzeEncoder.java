@@ -55,6 +55,8 @@ public class TaskMorzeEncoder extends Task {
         return map;
 
     }
+//     1 - короткий сигнал, 111 -- длинный сигнал 0 - разделитель сигнала
+//        00000 - разделитель букв, 0000000000 - разделитель слов
     private static String Encode(ArrayList<String> a, Map<String, String> map )
     {
         String res = "";
