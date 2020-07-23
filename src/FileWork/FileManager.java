@@ -12,6 +12,7 @@ public class FileManager {
     private File Task3 = new File("Resources/InpTask3.txt");
     private File Task4 = new File("Resources/InpTask4.txt");
     private File Task5 = new File("Resources/InpTask5.txt");
+    private File Task6 = new File("Resources/InpTask6.txt");
 
 
 
@@ -19,7 +20,6 @@ public class FileManager {
 
     public void Linker(String command) throws IOException, IncorrectInputExсeption
     {
-        task = null;
         if(command.equals("Task1"))
         {
             System.out.println(Task1.getAbsolutePath());
@@ -45,7 +45,12 @@ public class FileManager {
                         }
                         else
                         {
-                            throw new IncorrectInputExсeption("Wrong command to execute");
+                            if(command.equals("Task6")) {
+                                task = new TaskMorzeDecoder(Task6);
+                            }
+                            else {
+                                throw new IncorrectInputExсeption("Wrong command to execute");
+                            }
                         }
                     }
                 }
@@ -57,8 +62,6 @@ public class FileManager {
 
             task.imper();
             task = null;
-
-
     }
 
 }

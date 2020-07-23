@@ -23,11 +23,12 @@ public class Main {
         System.out.println("Task4 - ToCamelNotation");
         System.out.println("---------------------------");
         System.out.println("Task5 - Morze Encoder");
+        System.out.println("---------------------------");
+        System.out.println("Task6 - Morze Dncoder");
         System.out.println("Press \"e\" to exit");
         System.out.println("Your command?");
         while (true) {
             command = scanner.nextLine();
-            System.out.println("there is command : " + command);
             if (command.equals("e")) {
                 break;
             }
@@ -35,7 +36,7 @@ public class Main {
             core.Executor();
             command = "";
             System.out.println("---------------------------");
-            System.out.println("---------------------------");
+            System.out.println("---------TASK DONE---------");
             System.out.println("---------------------------");
             System.out.println("Your command?");
         }
@@ -53,6 +54,7 @@ public class Main {
             {
                 e.getMessage();
                 e.printStackTrace();
+                System.out.println("That was the wrong command :(");
                 System.out.println("After all, would you try it again? \r\n Y|N");
                 Scanner scan = new Scanner(System.in);
                 String r = scan.next();

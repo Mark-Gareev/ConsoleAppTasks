@@ -15,12 +15,12 @@ public class TaskAreaBetweenFunction extends Task
                 Third string -- values of polynomial N*3 for F and M*3 for G */
 
 
-    int N = 0;
-    int M = 0;
-    ArrayList<String> RangeList_F = new ArrayList<String>();
-    ArrayList<String> RangeList_G = new ArrayList<String>();
-    ArrayList<String> Val_F = new ArrayList<String>();
-    ArrayList<String> Val_G = new ArrayList<String>();
+    private int N = 0;
+    private int M = 0;
+    private ArrayList<String> RangeList_F = new ArrayList<String>();
+    private ArrayList<String> RangeList_G = new ArrayList<String>();
+    private ArrayList<String> Val_F = new ArrayList<String>();
+    private ArrayList<String> Val_G = new ArrayList<String>();
 
 
     public TaskAreaBetweenFunction(File file) throws IOException
@@ -105,8 +105,6 @@ public class TaskAreaBetweenFunction extends Task
         }
         //System.out.println("Area F is : " + INTEGR_F);
         //System.out.println("Area G is : " + INTEGR_G);
-        System.out.println("GENERAL RESULT IS : ");
-        System.out.println("___________________________________________");
         if((INTEGR_F > 0)&&(INTEGR_G > 0))
         {
             System.out.println("Area between F & G is : " + abs(INTEGR_F-INTEGR_G));

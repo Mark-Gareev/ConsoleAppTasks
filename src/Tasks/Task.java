@@ -4,11 +4,11 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Task {
-    public String a1;
-    public String b1;
-    public String c1;
-    public String result = "";
-    public Task(){}
+     String a1;
+     String b1;
+     String c1;
+     String result = "";
+     Task(){}
 
     public Task(String a, String b, String c){
         a1 = a;

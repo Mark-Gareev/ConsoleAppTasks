@@ -1,62 +1,61 @@
 package Tasks;
+import java.io.*;
 import java.util.*;
-import java.io.File;
-import java.io.IOException;
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class TaskMorzeEncoder extends Task {
-    ArrayList<String> words = new ArrayList<>();
+    private ArrayList<String> words = new ArrayList<>();
     public TaskMorzeEncoder(File file) throws IOException
     {
         Scanner scan = new Scanner(file);
         while(scan.hasNext())
         {
             words.add(scan.next());
-            System.out.println(words);
-            System.out.println("------------------------");
         }
         scan.close();
     }
     private static Map<String, String> CreateMap()
     {
         Map<String,String> map = new HashMap<>();
-        map.put("а","01");
-        map.put("б","1000");
-        map.put("в","011");
-        map.put("г","110");
-        map.put("д","100");
-        map.put("е","0");
-        map.put("ж","0001");
-        map.put("з","1100");
-        map.put("и","00");
-        map.put("й","0111");
-        map.put("к","101");
-        map.put("л","0100");
-        map.put("м","11");
-        map.put("н","10");
-        map.put("о","111");
-        map.put("п","0110");
-        map.put("р","010");
-        map.put("с","000");
-        map.put("т","1");
-        map.put("у","001");
-        map.put("ф","0010");
-        map.put("х","0000");
-        map.put("ц","1010");
-        map.put("ч","1110");
-        map.put("ш","1111");
-        map.put("щ","1101");
-        map.put("ы","1011");
-        map.put("ъ","1001");
-        map.put("ь","1001");
-        map.put("э","00100");
-        map.put("ю","0011");
-        map.put("я","0101");
+        map.put("а","10111");
+        map.put("б","111010101");
+        map.put("в","1001110111");
+        map.put("г","111011101");
+        map.put("д","1110101");
+        map.put("е","1");
+        map.put("ж","101010111");
+        map.put("з","11101110101");
+        map.put("и","101");
+        map.put("й","1011101110111");
+        map.put("к","111010111");
+        map.put("л","101110101");
+        map.put("м","1110111");
+        map.put("н","11101");
+        map.put("о","11101110111");
+        map.put("п","10111011101");
+        map.put("р","1011101");
+        map.put("с","10101");
+        map.put("т","111");
+        map.put("у","1010111");
+        map.put("ф","101011101");
+        map.put("х","1010101");
+        map.put("ц","11101011101");
+        map.put("ч","1110111011101");
+        map.put("ш","111011101110111");
+        map.put("щ","1110111010111");
+        map.put("ы","1110101110111");
+        map.put("ъ","11101010111");
+        map.put("ь","11101010111");
+        map.put("э","10101110101");
+        map.put("ю","10101110111");
+        map.put("я","10111010111");
         return map;
 
     }
 //     1 - короткий сигнал, 111 -- длинный сигнал 0 - разделитель сигнала
-//        00000 - разделитель букв, 0000000000 - разделитель слов
+//        000 - разделитель букв, 0000000 - разделитель слов
+
     private static String Encode(ArrayList<String> a, Map<String, String> map )
     {
         String res = "";
@@ -67,15 +66,39 @@ public class TaskMorzeEncoder extends Task {
             for(int j = 0; j < k.length(); j++ )
             {
                 res += map.get(String.valueOf(k.charAt(j)));
-                res+="|";
+                if(j < k.length() - 1)
+                    res+="000";
             }
-            res+="||";
+            if(i < a.size()-1)
+                res+="0000000";
         }
         return res;
     }
     @Override
     public void imper(){
-        System.out.println(Encode(words, CreateMap()));
+        try {
+            result = Encode(words, CreateMap());
+            System.out.println(result);
+            System.out.println("Do you want port your result to InpTask6(Morze Decoder) ? \r\n Y|N");
+            Scanner sc = new Scanner(System.in);
+            if (sc.next().equals("Y")) {
+                File file = new File("Resources/InpTask6.txt");
+                //file.delete();
+                //System.out.println(file.exists());
+                //file.createNewFile();
+                FileWriter writ = new FileWriter(file,false);
+                writ.write(result);
+                writ.flush();
+                writ.close();
+                //file.createNewFile();
+            }
+            result = null;
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
     }
 
 }
