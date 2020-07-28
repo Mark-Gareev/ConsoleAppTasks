@@ -5,7 +5,7 @@ import Tasks.*;
 import java.io.File;
 import java.io.IOException;
 
-public class FileManager {
+public class TaskProducer {
     private Task task;
     private File Task1 = new File("Resources/InpTask1.txt");
     private File Task2 = new File("Resources/InpTask2.txt");
@@ -13,6 +13,7 @@ public class FileManager {
     private File Task4 = new File("Resources/InpTask4.txt");
     private File Task5 = new File("Resources/InpTask5.txt");
     private File Task6 = new File("Resources/InpTask6.txt");
+    private File Task7 = new File("Resources/InpTask7.txt");
 
 
 
@@ -49,7 +50,11 @@ public class FileManager {
                                 task = new TaskMorzeDecoder(Task6);
                             }
                             else {
-                                throw new IncorrectInputExсeption("Wrong command to execute");
+                                if (command.equals("Task7"))
+                                    task = new TaskGraphAlgorithms(Task7);
+                                else{
+                                        throw new IncorrectInputExсeption("Wrong command to execute");
+                                }
                             }
                         }
                     }

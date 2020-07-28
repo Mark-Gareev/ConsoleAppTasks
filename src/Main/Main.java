@@ -1,6 +1,6 @@
 package Main;
 
-import FileWork.FileManager;
+import FileWork.TaskProducer;
 import FileWork.IncorrectInputExсeption;
 
 import java.io.IOException;
@@ -11,7 +11,7 @@ public class Main {
     {
         Scanner scanner = new Scanner(System.in);
         String command = "";
-        FileManager core = new FileManager();
+        TaskProducer core = new TaskProducer();
         System.out.println("Use \"Task№\" form");
         System.out.println("---------------------------");
         System.out.println("Task1 - Caesar Decoder");
@@ -25,6 +25,8 @@ public class Main {
         System.out.println("Task5 - Morze Encoder");
         System.out.println("---------------------------");
         System.out.println("Task6 - Morze Dncoder");
+        System.out.println("---------------------------");
+        System.out.println("Task7 - GraphAlgorithms");
         System.out.println("Press \"e\" to exit");
         System.out.println("Your command?");
         while (true) {

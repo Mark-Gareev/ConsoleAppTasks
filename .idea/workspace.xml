@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Resources/InpTask6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataStructures/Graph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskGraphAlgorithms.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/InpTask5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/InpTask5.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/FileWork/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskAreaBetweenFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskSimpleMath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Tasks/TaskSimpleMath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/TaskProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskAreaBetweenFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskMorzeDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskMorzeDecoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
