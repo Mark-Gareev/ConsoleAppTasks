@@ -31,17 +31,21 @@ public class Main {
         System.out.println("Your command?");
         while (true) {
             command = scanner.nextLine();
+
             if (command.equals("e")) {
+                scanner.close();
                 break;
             }
             core.Linker(command);
             core.Executor();
             command = "";
+            System.gc();
             System.out.println("---------------------------");
             System.out.println("---------TASK DONE---------");
             System.out.println("---------------------------");
             System.out.println("Your command?");
         }
+
         System.out.println("Goodbye!");
     }
     public static void main(String[] args)
@@ -56,15 +60,20 @@ public class Main {
             {
                 e.getMessage();
                 e.printStackTrace();
-                System.out.println("That was the wrong command :(");
+                System.out.println("There was something wrong :(");
                 System.out.println("After all, would you try it again? \r\n Y|N");
                 Scanner scan = new Scanner(System.in);
                 String r = scan.next();
                 if(r.equals("Y"))
+                {
+                    System.gc();
                     continue;
+                }
                 else
+                {
                     System.out.println("So, be happy :)");
                     break;
+                }
             }
         }
     }

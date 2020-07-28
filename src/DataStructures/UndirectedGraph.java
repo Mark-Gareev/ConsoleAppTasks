@@ -8,9 +8,9 @@ import java.util.List;
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!//
 //Представление графа -- список связности...........//
 //Граф неориентированный............................//
-//Список вершин сротируется для ускорение поиска....//
+//Список вершин сротируется для ускорения поиска....//
 //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!//
-public class Graph {
+public class UndirectedGraph {
         HashMap<Integer, List<Integer>> linkList = new HashMap<>();
         public void addVertex(int index)
         {
@@ -50,6 +50,10 @@ public class Graph {
 
     public HashMap<Integer, List<Integer>> getLinkList() {
         return linkList;
+    }
+    public List<Integer> getlinks(int index)
+    {
+        return linkList.get(index);
     }
 }
 

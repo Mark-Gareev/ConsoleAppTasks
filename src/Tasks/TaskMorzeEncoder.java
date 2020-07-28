@@ -83,14 +83,10 @@ public class TaskMorzeEncoder extends Task {
             Scanner sc = new Scanner(System.in);
             if (sc.next().equals("Y")) {
                 File file = new File("Resources/InpTask6.txt");
-                //file.delete();
-                //System.out.println(file.exists());
-                //file.createNewFile();
                 FileWriter writ = new FileWriter(file,false);
                 writ.write(result);
                 writ.flush();
                 writ.close();
-                //file.createNewFile();
             }
             result = null;
         }

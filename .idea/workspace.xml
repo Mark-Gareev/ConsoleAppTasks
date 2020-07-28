@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DataStructures/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tasks/TaskGraphAlgorithms.java" afterDir="false" />
+    <list default="true" id="a8869f21-64c1-48ac-879f-931be7bcb15c" name="Default Changelist" comment="Add DepthFirstSearch to find any simple chain between two vertexes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileWork/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWork/TaskProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Great_Task_project/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataStructures/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataStructures/UndirectedGraph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskGraphAlgorithms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskGraphAlgorithms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskMorzeEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tasks/TaskSimpleMath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +76,9 @@
     <MESSAGE value="Add Task3" />
     <MESSAGE value="Add Task4" />
     <MESSAGE value="Add reaction to incorrect input" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add reaction to incorrect input" />
+    <MESSAGE value="Add package DataStructures to Data structures, clearly&#10;Add undirectable graph performed in linklist&#10;Create class GraphAlgorithms to do algorithms in nearest future" />
+    <MESSAGE value="Add DepthFirstSearch to find any simple chain between two vertexes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add DepthFirstSearch to find any simple chain between two vertexes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1593398856550">
@@ -93,29 +97,33 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="377" y="191" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.800@0.0.1280.800" timestamp="1593395255186" />
-    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2" timestamp="1595336473613">
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1595940479053">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1595336473613" />
-    <state width="629" height="180" key="GridCell.Tab.0.bottom" timestamp="1595465418018">
+    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.800@0.0.1280.800" timestamp="1595940479053" />
+    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2" timestamp="1595979690583">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="180" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595465418018" />
+    <state x="260" y="0" width="733" height="800" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1595979690583" />
+    <state width="629" height="178" key="GridCell.Tab.0.bottom" timestamp="1595979690697">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="629" height="178" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595979690697" />
     <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
-    <state width="629" height="180" key="GridCell.Tab.0.center" timestamp="1595465418017">
+    <state width="629" height="178" key="GridCell.Tab.0.center" timestamp="1595979690695">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="180" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595465418017" />
+    <state width="629" height="178" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595979690695" />
     <state width="1259" height="212" key="GridCell.Tab.0.center/0.22.1280.778@0.22.1280.778" timestamp="1593117331480" />
-    <state width="629" height="180" key="GridCell.Tab.0.left" timestamp="1595465418016">
+    <state width="629" height="178" key="GridCell.Tab.0.left" timestamp="1595979690694">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="180" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595465418016" />
+    <state width="629" height="178" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595979690694" />
     <state width="1259" height="212" key="GridCell.Tab.0.left/0.22.1280.778@0.22.1280.778" timestamp="1593117331479" />
-    <state width="629" height="180" key="GridCell.Tab.0.right" timestamp="1595465418018">
+    <state width="629" height="178" key="GridCell.Tab.0.right" timestamp="1595979690696">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="629" height="180" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595465418018" />
+    <state width="629" height="178" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595979690696" />
     <state width="1259" height="212" key="GridCell.Tab.0.right/0.22.1280.778@0.22.1280.778" timestamp="1593117331481" />
     <state width="629" height="263" key="GridCell.Tab.1.bottom" timestamp="1593419705511">
       <screen x="0" y="0" width="1280" height="800" />
@@ -137,10 +145,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="401" y="118" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1594274112788" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1595336480603">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1595936468935">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1595336480603" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1595936468935" />
     <state x="429" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593822599017">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -153,9 +161,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="309" y="22" key="new project wizard/0.0.1280.800@0.0.1280.800" timestamp="1595457667587" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595276621324">
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595972260095">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595276621324" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595972260095" />
   </component>
 </project>

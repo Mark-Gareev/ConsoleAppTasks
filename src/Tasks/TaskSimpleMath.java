@@ -82,7 +82,7 @@ public class TaskSimpleMath extends Task {
         Scanner scanner = new Scanner(System.in);
         String comm = "";
         while (!(comm.equals("e"))) {
-            System.out.println("Command for task4 : \r\n  Divide \r\n  Substract \r\n  Add \r\n  Multiply");
+            System.out.println("Command for task4 : \r\n  Divide \r\n  Substract \r\n  Add \r\n  Multiply \r\n To exit press \"e\"");
             System.out.println("Put your command:");
             comm = scanner.nextLine();
             if (comm.equals("Divide")) {
